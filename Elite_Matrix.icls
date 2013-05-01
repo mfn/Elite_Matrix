@@ -12,11 +12,14 @@
     <option name="GUTTER_BACKGROUND" value="5d" />
     <option name="INDENT_GUIDE" value="323446" />
     <option name="LINE_NUMBERS_COLOR" value="ffff25" />
+    <option name="READONLY_BACKGROUND" value="" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="323446" />
     <option name="SELECTED_INDENT_GUIDE" value="4f5572" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="c7c7c7" />
     <option name="TEARLINE_COLOR" value="545454" />
+    <option name="WHITESPACES" value="5e5e5e" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -279,7 +282,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="db33" />
+        <option name="FOREGROUND" value="e0e025" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -928,6 +931,12 @@
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="20999d" />
+      </value>
+    </option>
+    <option name="TYPO">
+      <value>
+        <option name="EFFECT_COLOR" value="8000" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
