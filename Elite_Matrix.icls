@@ -50,6 +50,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="BASH.HERE_DOC">
       <value>
         <option name="BACKGROUND" value="1d3885" />
@@ -69,8 +70,14 @@
     </option>
     <option name="BASH.INTERNAL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="a64b42" />
+        <option name="FOREGROUND" value="ffff00" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BASH.VAR_USE">
+      <value>
+        <option name="FOREGROUND" value="40ffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="BLINKING_HIGHLIGHTS_ATTRIBUTES">
@@ -83,6 +90,7 @@
         <option name="BACKGROUND" value="64005d" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
         <option name="FOREGROUND" value="b1c5ff" />
@@ -144,8 +152,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="b1c5ff" />
-        <option name="EFFECT_COLOR" value="b1c5ff" />
+        <option name="FOREGROUND" value="80a0ff" />
+        <option name="EFFECT_COLOR" value="80a0ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -191,6 +199,11 @@
       <value>
         <option name="FOREGROUND" value="b1c5ff" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -359,9 +372,9 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="80a0ff" />
+        <option name="FOREGROUND" value="5c75bf" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="80a0ff" />
+        <option name="EFFECT_COLOR" value="5c75bf" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -396,9 +409,9 @@
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b1c5ff" />
+        <option name="FOREGROUND" value="80a0ff" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="b1c5ff" />
+        <option name="EFFECT_COLOR" value="80a0ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -407,17 +420,13 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IGNORE.HEADER">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="IGNORE.SECTION">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="cccccc" />
@@ -544,6 +553,117 @@
         <option name="BACKGROUND" value="335d5e" />
       </value>
     </option>
+    <option name="MULTIMARKDOWN.ABBREVIATION">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="277c8" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.ATX_HEADER">
+      <value>
+        <option name="FOREGROUND" value="ffe057" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.BOLD">
+      <value>
+        <option name="FOREGROUND" value="ff35" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.BOLDITALIC">
+      <value>
+        <option name="FOREGROUND" value="ff35" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.BOLD_MARKER">
+      <value>
+        <option name="FOREGROUND" value="ff35" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.BULLET_LIST">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.CODE">
+      <value>
+        <option name="FOREGROUND" value="ffa0a0" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.DEFINITION_TERM">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.EXPLICIT_LINK">
+      <value>
+        <option name="FOREGROUND" value="277c8" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.FOOTNOTE_REF" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="MULTIMARKDOWN.HEADER_TEXT">
+      <value>
+        <option name="FOREGROUND" value="ffff00" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.HRULE">
+      <value>
+        <option name="FOREGROUND" value="ba" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.HTML_BLOCK" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="MULTIMARKDOWN.IMAGE">
+      <value>
+        <option name="FOREGROUND" value="277c8" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.INLINE_HTML">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.MAIL_LINK" baseAttributes="MULTIMARKDOWN.AUTO_LINK" />
+    <option name="MULTIMARKDOWN.ORDERED_LIST">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.QUOTE" baseAttributes="DEFAULT_STRING" />
+    <option name="MULTIMARKDOWN.SETEXT_HEADER" baseAttributes="MULTIMARKDOWN.ATX_HEADER" />
+    <option name="MULTIMARKDOWN.SMARTS">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.SPECIAL_TEXT" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="MULTIMARKDOWN.TABLE_CAPTION">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.TABLE_CELL_REVEN_CEVEN">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.TABLE_CELL_REVEN_CODD">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.TABLE_CELL_RODD_CEVEN">
+      <value />
+    </option>
+    <option name="MULTIMARKDOWN.TABLE_COLUMN_EVEN" baseAttributes="MULTIMARKDOWN.TABLE_CELL_REVEN_CEVEN" />
+    <option name="MULTIMARKDOWN.TABLE_COLUMN_ODD" baseAttributes="MULTIMARKDOWN.TABLE_CELL_REVEN_CODD" />
+    <option name="MULTIMARKDOWN.TASK_ITEM_MARKER">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.VERBATIM" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="MULTIMARKDOWN.WIKI_LINK">
+      <value>
+        <option name="FOREGROUND" value="277c8" />
+      </value>
+    </option>
+    <option name="MULTIMARKDOWN.WIKI_LINK_REF" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
+    <option name="MULTIMARKDOWN.WIKI_LINK_REF_ANCHOR" baseAttributes="MULTIMARKDOWN.WIKI_LINK_REF" />
+    <option name="MULTIMARKDOWN.WIKI_LINK_TEXT" baseAttributes="MULTIMARKDOWN.WIKI_LINK_REF" />
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ff" />
@@ -555,10 +675,15 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="PHP_EXEC_COMMAND_ID">
+      <value>
+        <option name="BACKGROUND" value="1d3885" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_SCRIPTING_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="db33" />
         <option name="BACKGROUND" value="5d" />
       </value>
     </option>
@@ -593,6 +718,7 @@
         <option name="FOREGROUND" value="ffa0a0" />
       </value>
     </option>
+    <option name="REST.INTERPRETED" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="REST.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="80a0ff" />
@@ -610,12 +736,7 @@
         <option name="FOREGROUND" value="b1c5ff" />
       </value>
     </option>
-    <option name="SASS_MIXIN">
-      <value>
-        <option name="FOREGROUND" value="a5a5" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="SASS_MIXIN" baseAttributes="DEFAULT_KEYWORD" />
     <option name="SASS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="40ffff" />
@@ -652,6 +773,18 @@
         <option name="FOREGROUND" value="ffff25" />
         <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="b1c5ff" />
+      </value>
+    </option>
+    <option name="TS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffff00" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="f133" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TYPO">
