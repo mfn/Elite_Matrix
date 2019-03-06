@@ -1,13 +1,12 @@
-<scheme name="Elite_Matrix" version="142" parent_scheme="Default">
+<scheme name="Elite_Matrix" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2018-06-25T17:09:44</property>
+    <property name="modified">2019-03-06T12:44:52</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="EDITOR_FONT_NAME" value="Monaco" />
-  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Monaco" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="LARGE" />
@@ -16,31 +15,22 @@
     <option name="CARET_COLOR" value="db33" />
     <option name="CARET_ROW_COLOR" value="ff" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
-    <option name="FILESTATUS_ADDED" value="629755" />
-    <option name="FILESTATUS_DELETED" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c95" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_MERGED" value="9877aa" />
     <option name="FILESTATUS_MODIFIED" value="6896bb" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6896bb" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6896bb" />
-    <option name="FILESTATUS_UNKNOWN" value="d1675a" />
-    <option name="FILESTATUS_addedOutside" value="629755" />
-    <option name="FILESTATUS_changelistConflict" value="d5756c" />
-    <option name="FILESTATUS_modifiedOutside" value="6897bb" />
     <option name="GUTTER_BACKGROUND" value="5d" />
     <option name="INDENT_GUIDE" value="323446" />
     <option name="LINE_NUMBERS_COLOR" value="ffff25" />
     <option name="METHOD_SEPARATORS_COLOR" value="4c42d8" />
     <option name="MODIFIED_LINES_COLOR" value="ffe057" />
     <option name="READONLY_BACKGROUND" value="" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="323446" />
     <option name="SELECTED_INDENT_GUIDE" value="4f5572" />
-    <option name="SELECTION_FOREGROUND" value="" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="c7c7c7" />
     <option name="TEARLINE_COLOR" value="545454" />
+    <option name="VISUAL_INDENT_GUIDE" value="1a1a1a" />
     <option name="WHITESPACES" value="5e5e5e" />
   </colors>
   <attributes>
@@ -101,7 +91,6 @@
         <option name="BACKGROUND" value="64005d" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -247,6 +236,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="32bdbd" />
@@ -322,6 +312,9 @@
         <option name="FOREGROUND" value="40ffff" />
       </value>
     </option>
+    <option name="DEFAULT_SEMICOLON">
+      <value />
+    </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -333,7 +326,6 @@
         <option name="FOREGROUND" value="ffa0a0" />
       </value>
     </option>
-    <option name="DEFAULT_TAG" baseAttributes="TEXT" />
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -382,7 +374,6 @@
     <option name="DUPLICATE_FROM_SERVER">
       <value />
     </option>
-    <option name="ELIXIR_ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="ELIXIR_DOCUMENTATION_TEXT">
       <value>
         <option name="FOREGROUND" value="80a0ff" />
@@ -541,22 +532,17 @@
         <option name="FOREGROUND" value="ffff25" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="ffff00" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="40ffff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="Keyword">
       <value>
         <option name="FOREGROUND" value="e0e025" />
@@ -61540,9 +61526,16 @@
         <option name="FOREGROUND" value="ffa0a0" />
       </value>
     </option>
+    <option name="PHP_ALIAS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ffff00" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="PHP_CONCATENATION">
       <value />
     </option>
+    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="BACKGROUND" value="1d3885" />
