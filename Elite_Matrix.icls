@@ -1,7 +1,7 @@
 <scheme name="Elite_Matrix" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2019-03-06T12:44:52</property>
+    <property name="modified">2020-01-16T12:33:11</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -31,7 +31,7 @@
     <option name="SOFT_WRAP_SIGN_COLOR" value="c7c7c7" />
     <option name="TEARLINE_COLOR" value="545454" />
     <option name="VISUAL_INDENT_GUIDE" value="1a1a1a" />
-    <option name="WHITESPACES" value="5e5e5e" />
+    <option name="WHITESPACES" value="2e2e2e" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -349,14 +349,14 @@
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="525252" />
-        <option name="ERROR_STRIPE_COLOR" value="cbcbcb" />
+        <option name="BACKGROUND" value="4b2323" />
+        <option name="ERROR_STRIPE_COLOR" value="656e76" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
         <option name="BACKGROUND" value="485d8d" />
-        <option name="ERROR_STRIPE_COLOR" value="baeeba" />
+        <option name="ERROR_STRIPE_COLOR" value="8cee90" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
